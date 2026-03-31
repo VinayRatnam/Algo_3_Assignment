@@ -32,6 +32,6 @@ The programs are designed to communicate via **Standard Input/Output (stdin/stdo
   ```bash
   python3 src/main.py < data/input/input1.in > data/output/output1.out
   ```
-
+![Question 1 Answer](./images/runtime_graph.png))
 ![Question 2 Answer](./images/Question_2_Answer.jpg)
 ![Question 3 Answer](./images/Question_3_Answer.jpg)
