@@ -37,18 +37,21 @@ The programs are designed to communicate via **Standard Input/Output (stdin/stdo
 
 ## Assumptions
 * **Input/Output Format:** The program expects inputs from Standard Input (`stdin`) with the proper layout: `K` (alphabet size), followed by `K` lines of `character and value`, followed by String `A` and String `B`. It outputs the highest value of the common subsequence string of `A` and `B` to Standard Output (`stdout`).
-**Example Input**:
+* **Example Input**:
+```
+3
+a 2
+b 4
+c 5
+aacb
+caab
+```
 
-* 3
-* a 2
-* b 4
-* c 5
-* aacb
-* caab
-
-**Example Output**
-* 9
-* cb
+* **Example Output**
+```
+9
+cb
+```
 
 * **Dependencies:** The main algorithm runs entirely on Python Standard Library (`sys`). External libraries (like `matplotlib`) are only required for the optional runtime graph generation script (`graph_runtime.py`).
 
