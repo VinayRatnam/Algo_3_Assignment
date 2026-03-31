@@ -36,7 +36,7 @@ The programs are designed to communicate via **Standard Input/Output (stdin/stdo
 ---
 
 ## Assumptions
-* **Input/Output Format:** The program expects inputs from Standard Input (`stdin`) with the proper layout: `K` (alphabet size), followed by `K` lines of `character value`, followed by String `A` and String `B`. It outputs the highest value and the corresponding subsequence string to Standard Output (`stdout`).
+* **Input/Output Format:** The program expects inputs from Standard Input (`stdin`) with the proper layout: `K` (alphabet size), followed by `K` lines of `character and value`, followed by String `A` and String `B`. It outputs the highest value of the common subsequence string of `A` and `B` to Standard Output (`stdout`).
 **Example Input**:
 
 3
