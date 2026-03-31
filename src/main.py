@@ -8,9 +8,9 @@ def main():
         lines = sys.stdin.readlines()
 
         values, s1, s2 = input_parser.parse_input(lines)
-        hvlcs.hvlcs_algo(values, s1, s2)
+        highest_value, bt_string =hvlcs.hvlcs_algo(values, s1, s2)
 
-        output_writer.write_output()
+        output_writer.write_output(highest_value, bt_string)
 
     except Exception as e:
         sys.stderr.write(f"Error: {e}\n")
