@@ -31,4 +31,4 @@ def hvlcs_algo(values, s1, s2):
     
     bt.reverse()
     
-    return (dp[-1][-1], bt)
+    return (dp[-1][-1], bt.join())
