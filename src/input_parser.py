@@ -24,10 +24,4 @@ def parse_input(raw_lines):
             
     return char_values, A, B
 
-if __name__ == "__main__":
-    # Simple test execution when running this file directly with a pipe
-    raw_lines = sys.stdin.readlines()
-    char_values, A, B = parse_input(raw_lines)
-    print("Character Values:", char_values)
-    print("String A:", A)
-    print("String B:", B)
+
